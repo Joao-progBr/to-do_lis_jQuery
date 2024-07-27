@@ -45,11 +45,22 @@ p{
 button{
     background-color: green;
     color: #fff;
+    cursor: pointer;
 }
+
+/* button:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all ease 0.3s;
+} */
 
 ul{
     margin-top: 24px;
     list-style: none;  
+}
+
+li{
+    cursor: pointer;
 }
 
 ul li{
@@ -58,3 +69,6 @@ ul li{
    color: #fff;
 }
 
+.completed{
+    text-decoration: line-through;
+}
